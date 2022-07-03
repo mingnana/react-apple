@@ -1,7 +1,27 @@
 .App {
   text-align: center;
 }
-
+div{
+  box-sizing:border-box;
+}
+.list{
+  padding-left:20px;
+  text-align:left;
+  border-bottom:1px solid gray;
+}
+.modal{
+  margin-top:20px;
+  padding:20px;
+  background:#eee;
+  text-align:left;
+}
+.black-nav{
+  display:flex;
+  background:black;
+  width:100%;
+  color:white;
+  padding-left:20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
